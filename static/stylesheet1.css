@@ -1,0 +1,242 @@
+
+        * { 
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        body{
+            background: #f0f0f0;
+            font: 14px/20px  Arial, San-Serif;
+            color: #555;
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            font-size: 180%;
+            line-height: 0%;
+            padding: 5% 0;
+            
+        }
+		h1:hover{color:red}
+        h2{
+            text-decoration: underline;
+            line-height: 280%;
+            padding-left: 2%;
+            
+        }
+		h2:hover{color:blue}
+        h3 {
+            line-height: 110%;
+            padding: 5% 0;
+			
+        }
+		h3:hover{color:fuchsia}
+        p{
+            padding: 1%;
+           
+        }
+		p:hover{color:fuchsia}
+        li {
+            list-style: none;
+        }
+        img {
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+        }
+
+        a{
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        a:hover{
+            color: orangered;
+            text-decoration: underline;
+        }
+        header{
+            background: #008080 ;
+            width: 100%;
+            height: 110px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            opacity: 0.90;
+        }
+		header:hover{background-color:#405580}
+        #logo {
+            margin: 15px;
+            margin-top: 30px;
+            float: left;
+            width: 200px;
+            height: 60px;
+            background: url(the-gym.png) no-repeat center;
+        }
+        nav {
+            float: right;
+            padding: 35px 20px 20px 0;
+            margin-right: 50px;
+            
+        }
+        #menu-icon {
+            float:right;
+            display: hidden;
+            width: 40px;
+            height: 40px;
+            background: url(icon.png)center;
+        }
+        a:hover#menu-icon{
+            border-radius: 4px 4px 0 0;
+        }
+        ul {
+            list-style: none;
+            
+        }
+        nav ul li {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .current{
+            color: #FFF000;
+            text-decoration: underline;
+            
+        }
+        #doc { margin: 40px 0; }
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+    margin-top: 130px;
+}
+.blueberry { max-width: 1110px; margin-top: 110px; }
+        section {
+            width: 29%;
+            float: left;
+            margin: 2% 2%;
+            text-align: center;
+            
+        } 
+        
+        .clear {
+            clear: both;
+            
+        }
+        article {
+            float: left;
+            margin: 0
+            auto;
+            width: 50%;
+            height: auto;
+            padding: 4%;
+        }
+        aside {
+            float: right;
+            margin: 0
+            auto;
+            width: 35%;
+            height: auto;
+            padding: 3%;
+            
+        }
+        ul.gym li {
+            padding-left: 3%;
+        }
+        footer {
+            background: #333333;
+            width: 100%;
+            overflow: hidden;
+            opacity: 0.90;
+        }
+        footer p, footer h3{
+            color: #FFF;
+        }
+        footer p a {
+            text-decoration:  none;
+            color: #FFF;
+        }
+#last{
+    margin: 100px;
+}
+
+        ul.social li {
+            display: inline;
+        }
+        ul.social li img {
+            height: 50px;
+            
+        }
+        footer.second {
+            border-top:1px solid #404E50;
+            background-color: #333333;
+            max-height: 50px;
+            text-align: center;
+            opacity: 0.99;
+        }
+        /**-------media------*/
+        @media screen and (max-width: 478px)
+        {
+body
+            {
+position: absolute;
+            }
+        }
+@media screen and (max-width: 740px)
+        {
+header
+            {
+position: absolute;
+            }
+        
+        # menu-icon {
+            display: inline-block;
+        }
+            nav ul, nav:active ul {
+                display: none;
+                position: absolute;
+                padding: 20px;
+                background: #405580;
+                border: 1px solid #FFF;
+                right: 20px;
+                top: 60px;
+                width: 50%;
+                border-radius: 2px 0 2px 2px;
+            }
+            nav li {
+                text-align: center;
+                width: 100%;
+                padding: 10px 0;
+                margin: 0;
+            }
+            nav:hover ul {
+                display: block;
+                
+            }
+            section {
+                float: left;
+                width: 100%;
+                margin: 0;
+                padding:0; 
+                    
+            }
+            section p {
+               padding: 50px; 
+            }
+            article {
+                float: left;
+                width: 100%;
+                margin: 0;
+                padding:0; 
+                    
+            }
+            aside {
+                float: left;
+                width: 100%;
+                margin: 0;
+                padding:0; 
+                    
+            }
+        }
